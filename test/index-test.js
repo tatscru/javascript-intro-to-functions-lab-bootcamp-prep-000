@@ -15,9 +15,9 @@ describe.only('logShout(string)', function() {
   it('calls console.log() its one argument in all caps', function() {
     const spy = expect.spyOn(console, 'log').andCallThrough()
 
-    logShout('hell')
+    logShout('hello')
 
-    expect(spy).toHaveBeenCalledWith('HELL')
+    expect(spy).toHaveBeenCalledWith('HELLO')
 
     console.log.restore()
   })
