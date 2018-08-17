@@ -61,14 +61,6 @@ function logShout(string) {
 
 
 
-function addition(x, y) {
-  var sumOfXAndY = x + y
-  
-  return sumOfXAndY
-}
-
-addition(2, 4)
-// => 6
 
 
 
